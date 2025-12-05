@@ -32,7 +32,7 @@ public class MyGLRenderer implements GLSurfaceView.Renderer {
     private boolean hudVisible = true; // Controla la visibilidad de los HUDs
     private int frameCounter = 0; // Contador de fotogramas
     private static final int CHANGE_INTERVAL_FRAMES = 60; // Cambiar cada 60 fotogramas
-    private int maxAsteroidsOnScreen = 10; // Máximo de obstaculos
+    private int maxAsteroidsOnScreen = 10; // Maximo de obstaculos
     private boolean isPOV = false; // Modo cámara: false = normal, true = POV
 
     public MyGLRenderer(Context context) {
